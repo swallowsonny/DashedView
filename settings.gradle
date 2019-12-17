@@ -1,0 +1,2 @@
+include ':app', ':dashedlibrary'
+rootProject.name='DashedView'

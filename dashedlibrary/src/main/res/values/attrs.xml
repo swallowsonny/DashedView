@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DashedView">
+        <attr name="border_shape">
+            <enum name="circle" value="0"/>
+            <enum name="rectangle" value="1"/>
+        </attr>
+        <attr name="border_radis" format="float"/>
+        <attr name="dashed_color" format="color"/>
+        <attr name="dashed_length" format="float"/>
+        <attr name="dashed_width" format="float"/>
+        <attr name="space_length" format="float"/>
+        <attr name="animate_direction">
+            <enum name="none" value="0"/>
+            <enum name="clockwise" value="1"/>
+            <enum name="anticlockwise" value="2"/>
+        </attr>
+        <attr name="animate_speed">
+            <enum name="slow" value="0"/>
+            <enum name="normal" value="1"/>
+            <enum name="fast" value="2"/>
+        </attr>
+        
+    </declare-styleable>
+</resources>
